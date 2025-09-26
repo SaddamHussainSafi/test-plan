@@ -31,6 +31,34 @@ Test Plan 1 – User Authentication & Security
 
 Test Plan 2 – Database & Data Integrity
 
+1. Components to be Tested:
+   - Database connection (MySQL)
+   - CRUD operations (Create, Read, Update, Delete)
+   - Data validation and foreign key constraints
+   - Backup and recovery mechanism
+
+2. Testing Approach:
+   - Unit tests for SQL queries
+   - Integration tests for CRUD functionality
+   - Data consistency checks across related tables
+   - Stress test with bulk data operations
+
+3. Roles and Responsibilities:
+   - Nimesh Neupane – Primary database tester
+   - Sandip Khatri – Support for CRUD and constraint testing
+
+4. Schedule:
+   - Estimated Duration: 3 days
+   - Day 1: Connection and data validation testing
+   - Day 2: CRUD operations and constraints
+   - Day 3: Backup/recovery and stress testing
+
+5. Handling Failed Tests:
+   - Failed operations will be logged with SQL error details
+   - Rollback strategies will be implemented if corruption occurs
+   - Issues will be corrected and re-tested with clean data
+
+
 Test Plan 3 – Frontend & UI/UX Responsiveness
 
 Test Plan 4 – Integration & System Performance
