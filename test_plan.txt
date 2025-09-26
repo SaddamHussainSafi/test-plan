@@ -1,7 +1,33 @@
-Test Plan Outlines
+Software Test Plan Report
 
 
 Test Plan 1 – User Authentication & Security
+
+1. Components to be Tested:
+   - Login form (username and password validation)
+   - Registration form (new user creation with validation rules)
+   - Password reset function (email/OTP verification, password update)
+   - Session handling & logout
+
+2. Testing Approach:
+   - Unit tests for form input validation
+   - Integration tests for login and registration workflows
+   - Security tests for SQL injection and brute-force attempts
+   - System test for session handling and logout behavior
+
+3. Roles and Responsibilities:
+   - Saddam Safi – Lead tester for login security and password reset
+   - Ashutosh Mishra – Assist with registration and form validation
+
+4. Schedule:
+   - Estimated Duration: 2 days
+   - Day 1: Unit and integration testing
+   - Day 2: Security and session tests
+
+5. Handling Failed Tests:
+   - All failed or inconclusive test cases will be logged in the bug tracking system
+   - Issues will be reassigned to developers for fixes
+   - Re-tests will be conducted after the fix is deployed
 
 Test Plan 2 – Database & Data Integrity
 
