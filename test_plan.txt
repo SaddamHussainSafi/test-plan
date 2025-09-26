@@ -88,3 +88,31 @@ Test Plan 3 – Frontend & UI/UX Responsiveness
    - Fixes verified through re-testing on affected devices
 
 Test Plan 4 – Integration & System Performance
+
+1. Components to be Tested:
+   - API communication between frontend and backend
+   - End-to-end system workflows (user signup to final output)
+   - System load and performance under heavy usage
+   - Error handling during failures
+
+2. Testing Approach:
+   - Integration testing for API endpoints (status codes, responses)
+   - End-to-end scenarios covering full user journeys
+   - Load testing with 50+ simulated users
+   - Stress test to identify bottlenecks
+
+3. Roles and Responsibilities:
+   - Sandip Khatri – Lead integration tester
+   - Nimesh Neupane – Assist with load and performance testing
+
+4. Schedule:
+   - Estimated Duration: 4 days
+   - Day 1: API integration testing
+   - Day 2: End-to-end workflow testing
+   - Day 3: Load testing with simulated users
+   - Day 4: Stress and failure recovery testing
+
+5. Handling Failed Tests:
+   - Errors and performance issues logged in monitoring system
+   - Escalated to dev team for optimization
+   - Stress tests rerun to validate fixes
