@@ -61,4 +61,30 @@ Test Plan 2 – Database & Data Integrity
 
 Test Plan 3 – Frontend & UI/UX Responsiveness
 
+1. Components to be Tested:
+   - Navigation bar across all pages
+   - Forms and interactive buttons
+   - Responsiveness on desktop, tablet, and mobile devices
+   - Accessibility compliance (contrast, alt text, ARIA labels)
+
+2. Testing Approach:
+   - Manual testing for navigation flow
+   - Cross-browser testing (Chrome, Firefox, Edge)
+   - Responsive design testing with device simulators
+   - Accessibility audit with automated tools
+
+3. Roles and Responsibilities:
+   - Ashutosh Mishra – Lead tester for UI and responsiveness
+   - Saddam Safi – Assist with accessibility and mobile checks
+
+4. Schedule:
+   - Estimated Duration: 2 days
+   - Day 1: UI functionality and form validation
+   - Day 2: Responsiveness and accessibility testing
+
+5. Handling Failed Tests:
+   - Screenshots will be captured for all UI bugs
+   - Issues will be reported to frontend developer
+   - Fixes verified through re-testing on affected devices
+
 Test Plan 4 – Integration & System Performance
