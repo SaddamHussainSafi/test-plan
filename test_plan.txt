@@ -3,72 +3,8 @@ Test Plan Outlines
 
 Test Plan 1 – User Authentication & Security
 
-Components:
-- Login form (username, password)
-- Registration form
-- Password reset function
-- Session handling & logout
-
-Roles & Responsibilities:
-- Saddam Safi – Lead tester for login security
-- Ashutosh Mishra – Support testing on registration workflows
-
-Test Plan Documentation:
-- Tests: Valid login, invalid login, SQL injection attempt, session timeout, password reset
-- Timeframe: 2 days
-- Failed tests: Log error, assign to developer, re-test after fix
-
-
-
 Test Plan 2 – Database & Data Integrity
-
-Components:
-- Database connection (MySQL)
-- CRUD operations (Create, Read, Update, Delete)
-- Data validation and constraints
-
-Roles & Responsibilities:
-- Nimesh Neupane – Primary database tester
-- Sandip Khatri – Assist in testing CRUD operations
-
-Test Plan Documentation:
-- Tests: Insert valid/invalid data, check foreign keys, update consistency, delete with constraints
-- Timeframe: 3 days
-- Failed tests: Report in bug tracker, rollback DB if corrupted, repeat after fix
-
-
 
 Test Plan 3 – Frontend & UI/UX Responsiveness
 
-Components:
-- Navigation bar
-- Forms and buttons
-- Mobile responsiveness
-- Accessibility features
-
-Roles & Responsibilities:
-- Ashutosh Mishra – Frontend UI tester
-- Saddam Safi – Assist with mobile/responsive checks
-
-Test Plan Documentation:
-- Tests: UI display on different devices, form input validation, responsive resizing, accessibility compliance
-- Timeframe: 2 days
-- Failed tests: Capture screenshots, report to frontend developer, verify corrections
-
-
-
 Test Plan 4 – Integration & System Performance
-
-Components:
-- API integration between frontend & backend
-- End-to-end system workflow
-- Load/performance under multiple users
-
-Roles & Responsibilities:
-- Sandip Khatri – Integration tester
-- Nimesh Neupane – Assist with load/performance testing
-
-Test Plan Documentation:
-- Tests: API call responses, data flow across system, stress test with 50+ users, error handling under load
-- Timeframe: 4 days
-- Failed tests: Log system errors, escalate to dev team, rerun stress tests after optimization
